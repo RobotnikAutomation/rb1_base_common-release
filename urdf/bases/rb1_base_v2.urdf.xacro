@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot name="rb1_base" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:macro name="rb1_base" params="prefix publish_bf hq">
+  <xacro:macro name="rb1_base_v2" params="prefix publish_bf hq">
 
   <!-- Robot mechanical and motor parameters -->
   <xacro:property name="PI" value="3.1415926535897931"/>
@@ -36,7 +36,7 @@
        <origin xyz="0 0 0" rpy="0 0 0" />
        <xacro:if value="${hq}">
        <geometry>
-         <mesh filename="package://rb1_base_description/meshes/bases/rb1v2_base.dae"/>
+	     <mesh filename="package://rb1_base_description/meshes/bases/rb1v2_base.dae"/>
        </geometry>
        </xacro:if>
        <xacro:unless value="${hq}">
@@ -97,11 +97,11 @@
   <joint name="${prefix}base_docking_joint" type="fixed">
      <origin xyz="0.030 0.000 0.068" rpy="0 0 0 " />
      <parent link="${prefix}front_cover_link"/>
-     <child link="${prefix}base_docking_contact" />
+     <child link="${prefix}base_docking_contact_link" />
   </joint>
 
-  <!-- FRONT COVER -->
-  <link name="${prefix}base_docking_contact" />
+  <!-- DOCKING LINK -->
+  <link name="${prefix}base_docking_contact_link" />
 
   </xacro:macro>
 </robot>
