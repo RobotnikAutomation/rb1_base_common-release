@@ -2,10 +2,19 @@
 Changelog for package rb1_base_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.6 (2016-09-22)
+
+1.1.0 (2016-09-22)
 ------------------
 * rb1_base_description: added contact link
 * Contributors: Marc Bosch
+1.0.5 (2016-07-22)
+------------------
+* publishing wheels tf in diff drive gazebo plugin
+* Contributors: AliquesTomas
+1.0.4 (2016-07-21)
+------------------
+* rb1_base_common package added to kinetic
+* Contributors: AliquesTomas
 
 1.0.3 (2016-07-07)
 ------------------
