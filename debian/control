@@ -1,0 +1,12 @@
+Source: ros-kinetic-rb1-base-navigation
+Section: misc
+Priority: optional
+Maintainer: Angel Soriano <asoriano@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-costmap-prohibition-layer, ros-kinetic-move-base, ros-kinetic-teb-local-planner
+Homepage: http://ros.org/wiki/rb1_base_navigation
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rb1-base-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-costmap-prohibition-layer, ros-kinetic-laser-filters, ros-kinetic-move-base, ros-kinetic-pointcloud-to-laserscan, ros-kinetic-teb-local-planner
+Description: This package configures the move_base stack and makes use of the gmapping and amcl algorithms to move the rb1_base robot
