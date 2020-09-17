@@ -1,3 +1,32 @@
+## rb1_base_common (melodic) - 1.12.0-1
+
+The packages in the `rb1_base_common` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic rb1_base_common --edit` on `Thu, 17 Sep 2020 07:07:48 -0000`
+
+These packages were released:
+- `rb1_base_common`
+- `rb1_base_control`
+- `rb1_base_description`
+- `rb1_base_localization`
+- `rb1_base_navigation`
+- `rb1_base_pad`
+
+Version of package(s) in repository `rb1_base_common`:
+
+- upstream repository: https://github.com/RobotnikAutomation/rb1_base_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.12.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## rb1_base_common (kinetic) - 2.0.0-4
 
 The packages in the `rb1_base_common` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release rb1_base_common --rosdistro kinetic` on `Fri, 04 Sep 2020 06:57:42 -0000`
